@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  background-color: #eceef1;
+  margin-top: 6px;
+  font-family: "Montserrat", sans-serif;
+}
+.signin {
+  display: inline-block;
+
+  float: right;
+  background-color: #0077c5;
+  border-radius: 8%;
+  border: solid 1px black;
+  color: white;
+  padding: 8px 26px;
+  margin: 0px 20px 0px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.forgot {
+  text-decoration: none;
+  color: #0077c5;
+  margin-top: 20px;
+}
+.forgot:visited {
+  color: #0077c5;
+  margin-top: 20px;
+}
+.top {
+  font-size: 12px;
+  margin-top: 10px;
+  display: block;
+  height: 40px;
+}
+.center {
+  display: block;
+  margin: auto;
+  width: 400px;
+  margin-top: 50px;
+}
+.form {
+  background-color: white;
+  border: 1px solid rgb(179, 179, 179);
+  padding: 20px;
+}
