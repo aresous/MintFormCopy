@@ -15,37 +15,38 @@
 
         <div style="float:right">
             <div style="padding-bottom: 6px;">Already have an Intuit account?</div>
-            <a href="index.html" class="forgot">I forgot my User ID or Password</a>
+            <a href="index.html">I forgot my User ID or Password</a>
         </div>
         
     </div>
     <div class="center">
-        
+        <img src="intuitlogo.png">
         <form class="form">
             <header>
-                <h1 style="font-size: 20px">
+                <h1 style="font-size: 24px; text-align: center;">
                     Create an Intuit account
                 </h1>
-                <h2>
-                    One account for everything Intuit, including Mint.
+                <h2 style="font-size: 13px; text-align: center; padding-top: 20px;">
+                    One account for everything Intuit, including Mint. <br> <a>Learn more</a>
                 </h2>
+                <br>
             </header>
-            <label name="email">Email</label>
-            <br><br>
-            <input name="email" type="email">
-            <br><br>
-            <label name="phone">Phone (recommended)</label>
-            <br><br>
-            <input name="phone" type="number">
-            <br><br>
-            <label name="password">Password</label>
-            <br><br>
-            <input name="password" type="password">
-            <br><br>
-            <button type="submit">Create Account</button>
-            <footer>
-                By selecting Create Account, you agree to our Terms and have read and acknowledge our Global Privacy Statement.
-            </footer>
+            <section style="font-size: 14px">
+                <label name="email">Email address</label>
+                <input name="email" type="email">
+                <label name="phone">Phone <p style="display:inline-block; font-size: 12px; color: grey;">(recommended)</p></label>
+                <input name="phone" >
+                <label name="password">Password</label>
+                <input name="password" type="password" style="margin-bottom: 28px;">
+                <button type="submit" class="createbtn">Create Account</button>
+                <br><br>
+                <footer class="smallprint">
+                    By selecting Create Account, you agree to our <a>Terms</a> and have read and acknowledge our <a>Global Privacy Statement.</a>
+                </footer>
+            </section>
+            <div class="bottom">
+                Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use</a>.
+            </div>
         </form>
     </div>
 </body>
